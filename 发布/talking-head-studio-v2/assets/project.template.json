@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "status": "draft",
+  "project": {"name": "", "platforms": [], "source_files": [], "script": null, "references": []},
+  "workflow": {"mode": "full", "completed_stages": [], "confirmed_brief": null},
+  "renderer": {"primary": "remotion", "alternatives": ["hyperframes"], "toolchain_path": null, "install_missing": true},
+  "video": {"outputs": [], "color": "source-aware", "codec": "h264", "quality": "high"},
+  "edit": {"pace": "natural", "target_duration_seconds": null, "keep": [], "remove": [], "chapter_navigation": "upper-left-all-chapters"},
+  "captions": {"enabled": true, "burn_in": true, "sidecar_formats": ["srt"], "font": null, "variants": {}, "highlight": "semantic"},
+  "motion": {"density": "medium", "style": "semantic", "face_exclusion": true},
+  "audio": {"speech_priority": true, "channel_strategy": "measure-first", "target_lufs": -16, "true_peak_dbtp": -1, "denoise": "source-aware", "bgm": {"enabled": false, "asset": null, "ducking": true}, "sfx": "restrained"},
+  "cover": {
+    "mode": "modeled", "identity_reference": null, "style_reference": null,
+    "outputs": [{"id": "portrait", "width": 1080, "height": 1440}, {"id": "landscape", "width": 1440, "height": 1080}],
+    "headline": null, "result_line": null, "background": "topic-derived", "text_layout": "local-deterministic",
+    "generation": {"base_url": "https://image.fushengyunsuan.cn/v1", "model": "gpt-image-2", "quality": "low", "key_env": "OPENAI_API_KEY", "max_attempts_per_asset": 3}
+  },
+  "delivery": {"video": true, "editable_project": true, "covers": true, "publishing_copy": true, "preview_approval": false},
+  "extensions": {}
+}

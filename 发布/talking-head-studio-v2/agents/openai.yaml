@@ -1,0 +1,4 @@
+interface:
+  display_name: "口播与封面工作室 v2"
+  short_description: "先讨论横竖屏与制作参数，再剪辑口播、制作建模封面并交付可编辑工程"
+  default_prompt: "使用 $talking-head-studio-v2，先与我讨论视频画幅和制作参数，再完成口播视频与封面包装。"

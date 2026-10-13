@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-10-13T06:36:34.004Z",
+  "platform": "win32",
+  "toolchain": "C:\\Users\\user\\Desktop\\发布\\.video-toolchain",
+  "install_requested": false,
+  "checks": {
+    "node": {
+      "ok": true,
+      "version": "v24.15.0",
+      "requirement": ">=22",
+      "exit_code": 0,
+      "detail": "v24.15.0"
+    },
+    "npm": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "11.12.1"
+    },
+    "ffmpeg": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "ffmpeg version N-109961-gad17e29224-20230305 Copyright (c) 2000-2023 the FFmpeg developers\r\nbuilt with gcc 12.2.0 (crosstool-NG 1.25.0.90_cf9beb1)\r\nconfiguration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --disable-libmfx --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20230305\r\nlibavutil      58.  3.100 / 58.  3.100\r\nlibavcodec     60.  6.100 / 60.  6.100\r\nlibavformat    60.  4.100 / 60.  4.100\r\nlibavdevice    60.  2.100 / 60.  2.100\r\nlibavfilter     9.  4.100 /  9.  4.100\r\nlibswscale      7.  2.100 /  7.  2.100\r\nlibswresample   4. 11.100 /  4. 11.100\r\nlibpostproc    57.  2.100 / 57.  2.100"
+    },
+    "ffprobe": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "ffprobe version N-109961-gad17e29224-20230305 Copyright (c) 2007-2023 the FFmpeg developers\r\nbuilt with gcc 12.2.0 (crosstool-NG 1.25.0.90_cf9beb1)\r\nconfiguration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-libxml2 --enable-zlib --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvorbis --enable-opencl --disable-libpulse --enable-libvmaf --disable-libxcb --disable-xlib --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-lv2 --disable-libmfx --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --disable-vaapi --enable-libvidstab --enable-vulkan --enable-libshaderc --enable-libplacebo --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-ldexeflags= --extra-libs=-lgomp --extra-version=20230305\r\nlibavutil      58.  3.100 / 58.  3.100\r\nlibavcodec     60.  6.100 / 60.  6.100\r\nlibavformat    60.  4.100 / 60.  4.100\r\nlibavdevice    60.  2.100 / 60.  2.100\r\nlibavfilter     9.  4.100 /  9.  4.100\r\nlibswscale      7.  2.100 /  7.  2.100\r\nlibswresample   4. 11.100 /  4. 11.100\r\nlibpostproc    57.  2.100 / 57.  2.100"
+    },
+    "packages": {
+      "ok": true,
+      "versions": {
+        "remotion": "4.0.535",
+        "@remotion/cli": "4.0.535",
+        "@remotion/renderer": "4.0.535",
+        "hyperframes": "0.8.151",
+        "react": "19.2.0",
+        "react-dom": "19.2.0"
+      },
+      "exit_code": 0,
+      "detail": "{\"remotion\":\"4.0.535\",\"@remotion/cli\":\"4.0.535\",\"@remotion/renderer\":\"4.0.535\",\"hyperframes\":\"0.8.151\",\"react\":\"19.2.0\",\"react-dom\":\"19.2.0\"}"
+    },
+    "remotion_cli": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "Node.JS = v24.15.0, OS = win32\n\nOn version: 4.0.535\n- @remotion/bundler\n- @remotion/sdk\n- @remotion/cli\n- @remotion/compositor-win32-x64-msvc\n- remotion\n- @remotion/licensing\n- @remotion/media-utils\n- @remotion/paths\n- @remotion/player\n- @remotion/renderer\n- @remotion/streaming\n- @remotion/codemods\n- @remotion/studio-server\n- @remotion/studio-shared\n- @remotion/studio\n- @remotion/timeline-utils\n- @remotion/zod-types\n- @remotion/captions\n- @remotion/openai-whisper\n- @remotion/elevenlabs\n- @remotion/media\n- @remotion/web-renderer\n- @remotion/studio-protocol\n\nExtra packages:\n- zod@4.5.4\n\nAll packages have the correct version."
+    },
+    "hyperframes_cli": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "0.8.151"
+    },
+    "remotion_browser": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "C:\\Users\\user\\Desktop\\发布\\.video-toolchain\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
+    },
+    "remotion_browser_launch": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "Browser launched and closed"
+    },
+    "hyperframes_browser": {
+      "ok": true,
+      "exit_code": 0,
+      "detail": "C:\\Users\\user\\Desktop\\发布\\.video-toolchain\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
+    },
+    "hyperframes_doctor": {
+      "ok": true,
+      "all_checks_ok": false,
+      "required_checks": [
+        "Node.js",
+        "FFmpeg",
+        "FFprobe",
+        "Chrome"
+      ],
+      "payload": {
+        "ok": false,
+        "platform": "win32",
+        "arch": "x64",
+        "checks": [
+          {
+            "name": "Version",
+            "ok": true,
+            "detail": "0.8.151 (latest)"
+          },
+          {
+            "name": "Node.js",
+            "ok": true,
+            "detail": "v24.15.0 (win32 x64)"
+          },
+          {
+            "name": "CPU",
+            "ok": true,
+            "detail": "20 cores · 13th Gen Intel(R) Core(TM) i7-13650HX @ 2803MHz"
+          },
+          {
+            "name": "Memory",
+            "ok": false,
+            "detail": "15.6 GB total · 0.7 GB available",
+            "hint": "Low memory — renders may fail. Close other apps or increase RAM."
+          },
+          {
+            "name": "Disk",
+            "ok": true,
+            "detail": "40.0 GB free"
+          },
+          {
+            "name": "Frames cache",
+            "ok": true,
+            "detail": "$HOME\\AppData\\Local\\Temp\\hyperframes-extract-cache-u · 40.0 GB free at $HOME\\AppData\\Local\\Temp\\hyperframes-extract-cache-u · default"
+          },
+          {
+            "name": "Archive extractor",
+            "ok": true,
+            "detail": "Built into Windows"
+          },
+          {
+            "name": "Settings lock",
+            "ok": true,
+            "detail": "Not locked"
+          },
+          {
+            "name": "Environment",
+            "ok": true,
+            "detail": "non-TTY"
+          },
+          {
+            "name": "whisper-cpp",
+            "ok": false,
+            "detail": "Not found (optional — needed for transcription)",
+            "hint": "Build with cmake: https://github.com/ggml-org/whisper.cpp#building"
+          },
+          {
+            "name": "TTS (Kokoro)",
+            "ok": false,
+            "detail": "Not installed (optional — local voice fallback)",
+            "hint": "pip install kokoro-onnx soundfile"
+          },
+          {
+            "name": "BGM (MusicGen)",
+            "ok": false,
+            "detail": "Not installed (optional — local music fallback)",
+            "hint": "pip install transformers torch soundfile numpy"
+          },
+          {
+            "name": "onnxruntime-node",
+            "ok": true,
+            "detail": "Not installed (installs on first use)"
+          },
+          {
+            "name": "@google/genai",
+            "ok": true,
+            "detail": "Not installed (installs on first use)"
+          },
+          {
+            "name": "FFmpeg",
+            "ok": true,
+            "detail": "ffmpeg version N-109961-gad17e29224-20230305 Copyright (c) 2000-2023 the FFmpeg developers at D:\\ffmpeg\\ffmpeg-master-latest-win64-gpl\\bin\\ffmpeg.exe"
+          },
+          {
+            "name": "FFprobe",
+            "ok": true,
+            "detail": "ffprobe version N-109961-gad17e29224-20230305 Copyright (c) 2007-2023 the FFmpeg developers at D:\\ffmpeg\\ffmpeg-master-latest-win64-gpl\\bin\\ffprobe.exe"
+          },
+          {
+            "name": "Chrome",
+            "ok": true,
+            "detail": "env: $HOME\\Desktop\\发布\\.video-toolchain\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
+          },
+          {
+            "name": "Docker",
+            "ok": false,
+            "detail": "Not found",
+            "hint": "https://docs.docker.com/get-docker/"
+          },
+          {
+            "name": "Docker running",
+            "ok": false,
+            "detail": "Not running",
+            "hint": "Start Docker Desktop or run: sudo systemctl start docker"
+          }
+        ],
+        "_meta": {
+          "version": "0.8.151",
+          "latestVersion": "0.8.147",
+          "updateAvailable": false
+        }
+      },
+      "exit_code": 0,
+      "detail": "{\n  \"ok\": false,\n  \"platform\": \"win32\",\n  \"arch\": \"x64\",\n  \"checks\": [\n    {\n      \"name\": \"Version\",\n      \"ok\": true,\n      \"detail\": \"0.8.151 (latest)\"\n    },\n    {\n      \"name\": \"Node.js\",\n      \"ok\": true,\n      \"detail\": \"v24.15.0 (win32 x64)\"\n    },\n    {\n      \"name\": \"CPU\",\n      \"ok\": true,\n      \"detail\": \"20 cores · 13th Gen Intel(R) Core(TM) i7-13650HX @ 2803MHz\"\n    },\n    {\n      \"name\": \"Memory\",\n      \"ok\": false,\n      \"detail\": \"15.6 GB total · 0.7 GB available\",\n      \"hint\": \"Low memory — renders may fail. Close other apps or increase RAM.\"\n    },\n    {\n      \"name\": \"Disk\",\n      \"ok\": true,\n      \"detail\": \"40.0 GB free\"\n    },\n    {\n      \"name\": \"Frames cache\",\n      \"ok\": true,\n      \"detail\": \"$HOME\\\\AppData\\\\Local\\\\Temp\\\\hyperframes-extract-cache-u · 40.0 GB free at $HOME\\\\AppData\\\\Local\\\\Temp\\\\hyperframes-extract-cache-u · default\"\n    },\n    {\n      \"name\": \"Archive extractor\",\n      \"ok\": true,\n      \"detail\": \"Built into Windows\"\n    },\n    {\n      \"name\": \"Settings lock\",\n      \"ok\": true,\n      \"detail\": \"Not locked\"\n    },\n    {\n      \"name\": \"Environment\",\n      \"ok\": true,\n      \"detail\": \"non-TTY\"\n    },\n    {\n      \"name\": \"whisper-cpp\",\n      \"ok\": false,\n      \"detail\": \"Not found (optional — needed for transcription)\",\n      \"hint\": \"Build with cmake: https://github.com/ggml-org/whisper.cpp#building\"\n    },\n    {\n      \"name\": \"TTS (Kokoro)\",\n      \"ok\": false,\n      \"detail\": \"Not installed (optional — local voice fallback)\",\n      \"hint\": \"pip install kokoro-onnx soundfile\"\n    },\n    {\n      \"name\": \"BGM (MusicGen)\",\n      \"ok\": false,\n      \"detail\": \"Not installed (optional — local music fallback)\",\n      \"hint\": \"pip install transformers torch soundfile numpy\"\n    },\n    {\n      \"name\": \"onnxruntime-node\",\n      \"ok\": true,\n      \"detail\": \"Not installed (installs on first use)\"\n    },\n    {\n      \"name\": \"@google/genai\",\n      \"ok\": true,\n      \"detail\": \"Not installed (installs on first use)\"\n    },\n    {\n      \"name\": \"FFmpeg\",\n      \"ok\": true,\n      \"detail\": \"ffmpeg version N-109961-gad17e29224-20230305 Copyright (c) 2000-2023 the FFmpeg developers at D:\\\\ffmpeg\\\\ffmpeg-master-latest-win64-gpl\\\\bin\\\\ffmpeg.exe\"\n    },\n    {\n      \"name\": \"FFprobe\",\n      \"ok\": true,\n      \"detail\": \"ffprobe version N-109961-gad17e29224-20230305 Copyright (c) 2007-2023 the FFmpeg developers at D:\\\\ffmpeg\\\\ffmpeg-master-latest-win64-gpl\\\\bin\\\\ffprobe.exe\"\n    },\n    {\n      \"name\": \"Chrome\",\n      \"ok\": true,\n      \"detail\": \"env: $HOME\\\\Desktop\\\\发布\\\\.video-toolchain\\\\node_modules\\\\.remotion\\\\chrome-headless-shell\\\\win64\\\\chrome-headless-shell-win64\\\\chrome-headless-shell.exe\"\n    },\n    {\n      \"name\": \"Docker\",\n      \"ok\": false,\n      \"detail\": \"Not found\",\n      \"hint\": \"https://docs.docker.com/get-docker/\"\n    },\n    {\n      \"name\": \"Docker running\",\n      \"ok\": false,\n      \"detail\": \"Not running\",\n      \"hint\": \"Start Docker Desktop or run: sudo systemctl start docker\"\n    }\n  ],\n  \"_meta\": {\n    \"version\": \"0.8.151\",\n    \"latestVersion\": \"0.8.147\",\n    \"updateAvailable\": false\n  }\n}"
+    }
+  },
+  "ok": true,
+  "shared_browser": "C:\\Users\\user\\Desktop\\发布\\.video-toolchain\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe"
+}
